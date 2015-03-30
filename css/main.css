@@ -8,8 +8,15 @@ body {
 }
 
 .nav-logo {
-    width: 140px;
-    pad
+    width: 190px;
+    padding: 4%;
+}
+
+.nav-links {
+    background-color: black !important;
+    color: #2AB1E6 !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 1em !important;
 }
 
 .main-logo-box {
@@ -49,5 +56,30 @@ body {
 
 #email {
     font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.document-iframe-landscape {
+    margin-left: 8%;
+}
+
+.document-iframe {
+    margin-left: 15%;
+}
+
+.document-section-heading {
+    color: #2AB1E6;
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: underline;
+    margin-bottom: 0px;
+}
+
+.document-heading {
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
     font-family: 'Josefin Sans', sans-serif;
 }
