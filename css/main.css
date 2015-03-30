@@ -1,72 +1,53 @@
 body {
     background-color: #000;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
-
-
-.pagebody {
-    background-image:url('../images/co2-logo-background.png');
-    background-repeat: no-repeat;
-    width: 1024px;
-    height:768px;
-    position:relative;
-    margin: 0 auto;
-    font-family: arial;
+.top-bar {
+    background-color: black;
 }
 
-#newsletter {
-    margin-left: 570px;
-    padding-top: 490px;
+.nav-logo {
+    width: 140px;
+    pad
 }
 
-#newsletter label {
-    color: white;
+.main-logo-box {
+    text-align: center;
 }
 
-#newsletter p{
-    color: white;
-    
+.main-logo {
+    padding-top: 7%;
 }
 
-.input-elements {
-    width: 400px;
-    height: 50px;
+.contact-button {
+    margin-top: 2%;
+    border: solid #2AB1E6 2px;
+    border-radius: 2px;
+    padding: 2%;
+    text-align: center;
+    color: #2AB1E6;
+    cursor: pointer;
 }
 
-.submit-button {
-    float: left;
-    position: relative;
-    margin-left: 5px;
-    margin-top: 2px;
+.contact-button:hover {
+    background-color: grey;
+    color: black;
 }
 
 .contact-heading {
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     font-size: 1.5em;
-    margin-bottom: 10px;
+    margin-bottom: 2%;
+    text-align: center;
 }
 
-.small-logo {
-    
+.submit-box {
+    text-align: center;
 }
 
 #email {
-    height:25px;
-    width:250px;
-    padding-left: 7px;
-    border-radius: 4px;
     font-size: 1em;
     font-family: 'Josefin Sans', sans-serif;
-    float: left;
-    position: relative;
-}
-
-@media (max-width: 500px) {
-    #pagebody {background-image: none;}
-    #newsletter {margin-left: 5px; padding-top: 80px;}
-    .contact-heading {margin-left: 140px;}
-    #email {width:200px; margin-top: 20px; margin-left: 70px;}
-    .submit-button {margin-top: 20px; margin-left: 10px;}
-    .small-logo {display: block; margin-left: 70px; margin-top: 40px;}
 }

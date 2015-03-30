@@ -81,7 +81,7 @@
 			 * @type {Object}
 			 */
 			labels : {
-				ok     : "OK",
+				ok     : "Login",
 				cancel : "Cancel"
 			},
 
