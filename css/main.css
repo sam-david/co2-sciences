@@ -1,0 +1,72 @@
+body {
+    background-color: #000;
+}
+
+
+
+.pagebody {
+    background-image:url('../images/co2-logo-background.png');
+    background-repeat: no-repeat;
+    width: 1024px;
+    height:768px;
+    position:relative;
+    margin: 0 auto;
+    font-family: arial;
+}
+
+#newsletter {
+    margin-left: 570px;
+    padding-top: 490px;
+}
+
+#newsletter label {
+    color: white;
+}
+
+#newsletter p{
+    color: white;
+    
+}
+
+.input-elements {
+    width: 400px;
+    height: 50px;
+}
+
+.submit-button {
+    float: left;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.contact-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.small-logo {
+    
+}
+
+#email {
+    height:25px;
+    width:250px;
+    padding-left: 7px;
+    border-radius: 4px;
+    font-size: 1em;
+    font-family: 'Josefin Sans', sans-serif;
+    float: left;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    #pagebody {background-image: none;}
+    #newsletter {margin-left: 5px; padding-top: 80px;}
+    .contact-heading {margin-left: 140px;}
+    #email {width:200px; margin-top: 20px; margin-left: 70px;}
+    .submit-button {margin-top: 20px; margin-left: 10px;}
+    .small-logo {display: block; margin-left: 70px; margin-top: 40px;}
+}
