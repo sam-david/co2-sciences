@@ -15,9 +15,10 @@ function verifyPassword() {
 			console.log("ok")
 			if (str === "poop") {
 				window.open("documents.html");
+			} else {
+				alertify.log("Incorrect Password Entered")
 			}
 		} else {
-			console.log("cancel")
 		}
 	}, "Provided Password");
 }
