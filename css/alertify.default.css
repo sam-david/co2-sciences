@@ -54,13 +54,13 @@
 		.alertify-button-cancel,
 		.alertify-button-cancel:hover,
 		.alertify-button-cancel:focus {
-			background-color: #FE1A00;
-			border: 1px solid #D83526;
+			background-color: grey;
+			border: 1px solid black;
 		}
 		.alertify-button-ok,
 		.alertify-button-ok:hover,
 		.alertify-button-ok:focus {
-			background-color: #2ab6ff;
+			background-color: #2AB1E6;
 			border: 1px solid #3B7808;
 		}
 

@@ -10,10 +10,10 @@ function submitContact () {
 
 function verifyPassword() {
 	console.log("Password")
-	alertify.prompt("Please enter password to view CO2 Sciences Documents", function(e, str) {
+	alertify.prompt("Please enter the password to view CO2 Science Initiative Documents", function(e, str) {
 		if (e) {
 			console.log("ok")
-			if (str === "poop") {
+			if (str === "co2change") {
 				window.open("documents.html");
 			} else {
 				alertify.log("Incorrect Password Entered")
