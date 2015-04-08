@@ -56,12 +56,14 @@
 		.alertify-button-cancel:focus {
 			background-color: grey;
 			border: 1px solid black;
+			font-family: 'Josefin Sans';
 		}
 		.alertify-button-ok,
 		.alertify-button-ok:hover,
 		.alertify-button-ok:focus {
 			background-color: #2AB1E6;
 			border: 1px solid #3B7808;
+			font-family: 'Josefin Sans';
 		}
 
 .alertify-log {
